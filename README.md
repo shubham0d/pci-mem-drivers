@@ -1,2 +1,2 @@
 # pci-mem-drivers
-Sample drivers to access pci configuration registers
+Sample drivers to help people, playing with pci configuration registers.
