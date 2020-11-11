@@ -46,7 +46,7 @@ static int my_init(void)
    
 static void my_exit(void)
 {
-    printk(KERN_INFO "Goodbye world.\n");
+    printk(KERN_INFO "Exit driver.\n");
 
     return;
 }
