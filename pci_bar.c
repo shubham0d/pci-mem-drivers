@@ -20,8 +20,7 @@ static int my_init(void)
 		return -ENODEV;
 	}
 	printk(KERN_INFO "Attached to the pci device\n");
-	//read dword value from pci deevice
-	
+	//read dword value from pci device
 	pci_read_config_dword(dev, 0x10, &pci_data);
 	
 	// getting the base address
